@@ -22,6 +22,19 @@
     flex-grow: 1;
 }
 
+.eventos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: center;
+}
+
+.eventos__item{
+    flex-grow: 1;
+    max-width: 400px;
+} 
+
 @media (min-width: 720px){
     .menu{
     column-gap: 75px;
@@ -31,6 +44,9 @@
         column-gap: 1.5rem;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .eventos__lista{
+        justify-content: end;
     }
 }
 
