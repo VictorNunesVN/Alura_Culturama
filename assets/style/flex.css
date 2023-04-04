@@ -35,6 +35,26 @@
     max-width: 400px;
 } 
 
+
+.agenda__item {
+    display: grid;
+    grid-template-areas:  
+    "imagem imagem"
+    "data atracao";
+}
+
+.agenda__item img {
+    grid-area: imagem;
+}
+
+.agenda__item .agenda__informacoes {
+    grid-area: data;
+}
+
+.agenda__item .agenda__atracao {
+    grid-area: atracao;
+}
+
 @media (min-width: 720px){
     .menu{
     column-gap: 75px;
@@ -46,6 +66,9 @@
         justify-content: space-around;
     }
     .eventos__lista{
+        justify-content: end;
+    }
+    .agenda__lista{
         justify-content: end;
     }
 }
