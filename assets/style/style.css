@@ -240,9 +240,7 @@ img:hover {
 .eventos__item h5 {
     padding-left: 1rem;
 }
-.eventos__item h3{
-    padding-top: 1rem;
-}
+
 
 .eventos__item button {
     outline: none;
